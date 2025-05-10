@@ -11,27 +11,34 @@
       margin: 2cm;
     }
 
-    body {
-      margin: 0;
-      background-color: white;
+    html, body {
+      height: auto;
+      background: white;
     }
 
     .container {
-      width: auto;
-      height: auto;
-      box-shadow: none;
+      width: 210mm;
+      margin: auto;
       padding: 0;
+      background: transparent;
+      box-shadow: none;
+      box-sizing: border-box;
     }
-    
+
     .skills span {
-    display: inline-block;
-    background: #3498db !important;
-    color: white !important;
-    padding: 5px 10px;
-    margin: 5px 5px 0 0;
-    border-radius: 20px;
-    font-size: 0.9em;
+      display: inline-block;
+      background: #3498db !important;
+      color: white !important;
+      padding: 5px 10px;
+      margin: 5px 5px 0 0;
+      border-radius: 20px;
+      font-size: 0.9em;
     }
+
+    section, h2 {
+      page-break-inside: avoid;
+    }
+
   }
 
   body {
@@ -60,10 +67,11 @@
   }
 
   header img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     object-fit: cover;
+    object-position: center 45%;
   }
 
   h1 {
@@ -74,16 +82,29 @@
 
   h2 {
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-bottom: 10px;
     border-bottom: 2px solid #3498db;
     padding-bottom: 5px;
     color: #3498db;
   }
 
+  .company {
+  margin-top: 10px;
+  }
+
+  .job-title {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 16px;
+  color: #376ba0;
+  display: block;
+  margin-bottom: 6px;
+  }
+
   .contact-info p {
     margin: 3px 0;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   p, li {
@@ -109,8 +130,9 @@
     color: #888;
     font-size: 0.9em;
     margin-top: 40px;
-  }
+  } 
 </style>
+  
 </head>
 <body>
   <div class="container">
