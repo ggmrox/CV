@@ -29,6 +29,7 @@ Structure
 ---------
 
 - index.html — main CV content
+- BAMF.png - Profile Photo
 - Inline CSS inside the HTML <style> tag
 
 Technologies
